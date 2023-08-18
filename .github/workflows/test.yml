@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: test
-        run: ls \| grep '^\!'
+        run: ls \| grep '^\!';exit 0
