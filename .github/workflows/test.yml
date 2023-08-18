@@ -12,3 +12,4 @@ jobs:
     steps:
       - name: test
         run: ls | grep '^\!'
+        shell: /usr/bin/bash -e {0}
